@@ -1,13 +1,24 @@
 .carousel-inner, .carousel-item {
     height: 100vh;
     margin-top: 15px;
+    width: 100%;
   }
   
+  .carousel-item{
+    width: 100%;
+  }
+
   .carousel-item img {
     height: 100%;
     object-fit: cover;
+    width: 100%;
+    margin: auto 0;
   }
   
+  .carousel-control-next, .carousel-control-prev{
+    position: absolute;
+  }
+
   .card img {
     width: 100%;
     height: 300px;
